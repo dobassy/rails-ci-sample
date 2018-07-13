@@ -67,3 +67,4 @@ git push origin failed-branch
 1. 上記1の branch を Pull Request したときの結果を確認する
 
 2. 上記2の branch を Pull Request したときの結果を確認する
+Successful edits.

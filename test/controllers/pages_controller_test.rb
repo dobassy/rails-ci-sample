@@ -6,4 +6,9 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get title" do
+    get pages_home_url
+    assert_select "title", "RailsCiSample-failed"
+  end
+
 end
